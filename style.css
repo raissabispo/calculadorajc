@@ -1,0 +1,101 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Philosopher&display=swap');
+
+  *{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #6895fff9, #4154e5, #1947ef);
+    color: white;
+   
+  }
+
+  #calculator{
+    background-color: #040038;
+    padding: 40px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #080035;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.323);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  #calculator h2{
+    font-size: 32px;
+    position:relative;
+  }
+
+  #input_box{
+    display: flex;
+    flex-direction: column;
+  
+  }
+
+  .input-field{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .input-field input{
+    font-size: 15px;
+    padding: 3px;
+  }
+
+  .input-field input:focus{
+    outline: none;
+  }
+
+  #result{
+    text-align: center;
+
+  }
+
+  #total{
+    font-size: 40px;
+  }
+
+
+ #calculate{
+
+ height: 30px;
+  width: 300px;
+}
+
+#clean{
+  height: 30px;
+  width:300px;
+
+}
+
+
+
+  button{
+    cursor: pointer;
+    }
+
+  button:hover{
+    background: linear-gradient(90deg, #a6cffcf9, #7d8cff, #5b89fe);
+
+  }
+
+
+  
+  
