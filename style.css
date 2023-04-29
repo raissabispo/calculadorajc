@@ -34,7 +34,7 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
-    width: 800px;
+    width: 58vh;
     
   }
 
@@ -101,29 +101,4 @@
   }
 
 
- 
-  @media  screen and (max-width: 1080px) {
-    #calculator {
-    
-          width: 50vh;
-          height: auto;
-          background-color:#f9aba2;
-          padding: 40px;
-          border-radius: 8px;
-          box-shadow: 10px 10px 10px rgba(0,0,0,0.323);
-          display: flex;
-          flex-direction: column;
-          gap: 25px;
-    }
-  }
-    @media  screen and (max-width: 1000px) {
-     
- #calculate, #clean {
-      
-          width:100%;
-          word-break: normal;
-          height: 30px;
-      }
-    
-  }
 
